@@ -1,0 +1,118 @@
+body,html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#000;
+}
+
+/*images*/
+.img1{
+  background-image:url("file:///C:/Users/HP/Desktop/AWS/180420116046_mp1/images/startr.png");
+  height:100%
+}
+.img2{
+  background-image:url("file:///C:/Users/HP/Desktop/AWS/180420116046_mp1/images/scet1.jpg");
+  height:70%;
+}
+.img3{
+
+  background-image:url("file:///C:/Users/HP/Desktop/AWS/180420116046_mp1/images/indi.jpg");
+  /*min-height:400px;*/
+  height:70%;
+}
+.img4{
+  background-image:url("file:///C:/Users/HP/Desktop/AWS/180420116046_mp1/images/seek.jpg");
+  height:100%;
+  }
+.img1,.img2,.img3,.img4
+{
+  background-attachment:fixed;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  opacity:0.70;
+  position:relative;
+}
+/*texts*/
+.text,.text1,.text3,.text4{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+  font-style:inherit;
+  font-weight: bold;
+}
+.text{
+  color:#111;
+}
+.text1{
+  color:azure; 
+}
+.text3,.text4{
+  color:#fff;
+}
+.text4{
+  letter-spacing: 15px;
+}
+/*spans*/
+.b{
+  background-color:rgb(55, 11, 65);
+  color:#fff;
+  padding:20px;
+  border-style: solid;
+  border-color: #000;
+}
+.b:hover{
+  background-color:rgb(245, 133, 226);
+  color:rgb(20, 2, 24);
+  padding:20px;
+  border-radius: 50px;  
+  letter-spacing: 10px;
+}
+span:hover{
+  transition-duration: 2000ms;
+}
+.l:hover{
+  letter-spacing:32px;
+  transition-duration: 6000ms;
+  color:cornflowerblue;
+}
+.o:hover{
+  letter-spacing:10px; 
+}
+.o:hover::after{
+  color:violet;
+}
+.t:hover{
+  letter-spacing:25px;
+}
+
+/*sections*/
+.sec-1{
+  text-align: center;
+  padding:50px;
+  background-color:#f4f4f4;
+  color:#666;
+}
+.sec-2,.sec-3{
+  background-color:#282e34;
+  color:#ddd;
+  text-align: center;
+  padding:50px;
+}
+@media(max-width:568px){
+  .img1, .img2, .img3, .img4{
+    background-attachment:scroll;
+  }
+}
+
+
+
+
+
